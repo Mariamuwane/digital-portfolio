@@ -185,3 +185,27 @@ section{
     margin: 1.5rem 0;
     line-height: 2rem;
 }
+
+.portfolio-container{
+    display: grid;
+    /* Wraps the elements and prevents overflow */
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    grid-gap: 4rem;
+    justify-content: center;
+}
+
+.card{
+    padding: 0;
+    cursor: pointer;
+    transition: .3s ease-out;
+    max-width: 500px;
+}
+
+.img-container{
+    border-radius: 0.5rem;
+    /* height: 100%; */
+    /* width: 100%; */
+    /* margin-left: 4rem; */
+    /* background-color: black; */
+    transition: all .4s ease-in-out;
+}
