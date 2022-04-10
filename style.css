@@ -143,6 +143,35 @@ section{
     border-radius: 5px;
 }
 
+/* Scroll to top */
+
+#myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 40px; 
+    z-index: 99; 
+    border: none; 
+    border-radius:4px;
+    outline: none; 
+    background-color: #FF8E9C; 
+    color: black; 
+    cursor: pointer; 
+    padding: 15px;
+    border-radius: 10px; 
+    font-size: 18px;
+  }
+
+#myBtn:hover {
+  cursor: pointer;
+  background-color: RGB(162,228,184);
+}
+
+#myBtn.show {
+  opacity: 1;
+  visibility: visible;
+}
+
 .header-content{
     display:flex;
     min-height:100vh;
