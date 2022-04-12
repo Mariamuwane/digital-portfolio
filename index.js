@@ -24,7 +24,16 @@ function topFunction() {
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 
-  
+lightMode = document.getElementById("darkButton") 
+
+var lightText = function() {
+  document.getElementById("darkButton").textContent = "Light mode"
+  // lightMode.textContent("Light mode")
+
+}
+lightMode.addEventListener("click", lightText)
+lightText;
+
 const sections = document.querySelectorAll('.section')
 const controls = document.querySelectorAll('.controls')
 
