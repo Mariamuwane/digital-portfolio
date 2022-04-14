@@ -26,7 +26,7 @@ function topFunction() {
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 
-lightMode = document.getElementById("darkButton") 
+const lightMode = document.getElementById("darkButton") 
 
 var lightText = function() {
   document.getElementById("darkButton").textContent = "Light mode"
@@ -45,10 +45,10 @@ lightText;
 //   }
 // }
 
-const sections = document.querySelectorAll('.section')
-const controls = document.querySelectorAll('.controls')
+// const sections = document.querySelectorAll('.section')
+// const controls = document.querySelectorAll('.controls')
 
 // buttons
-const control = document.querySelectorAll('.control')
-const allBody = document.querySelectorAll('.full-content')
+// const control = document.querySelectorAll('.control')
+// const allBody = document.querySelectorAll('.full-content')
 
